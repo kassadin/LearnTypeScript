@@ -1,11 +1,11 @@
 // Named function
-function add(x, y) :number{
+function add(x:number, y:number) :number{
     return x + y;
 }
 
 let z = 100;
 
-function addToZ(x, y) {
+function addToZ(x:number, y:number) {
     return x + y + z;
 }
 
